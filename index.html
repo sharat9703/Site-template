@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script> 
+    <!--bootstrap-->
+
+    <!--icons-->
+    <script src="https://kit.fontawesome.com/fd15ff6187.js" crossorigin="anonymous"></script>
+    <!--icons-->
+    
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!--jQuery-->
+    
+    
+    <title>Pharmacy College</title>
+</head>
+<body >
+    <div id="root">
+        <!--row--> 
+             <!--Admission details/ emails, ph no--
+             <div id="admission-contacts" class="bg-secondary-subtle w-100 d-sm-block d-md-flex d-lg-flex justify-content-evenly align-items-center">
+                 <div class="email p-4"><i class="fa-solid fa-envelope"></i><span>: xyz@gmail.com</span></div>
+                 <div class="admission-badge">
+                    <h3><span class="badge bg-primary ms-3 ms-sm-4 ms-lg-0 ">For Admission</span></h3>
+                 </div>
+                 <div class="phone p-4"><i class="fa-solid fa-phone"></i><span>: +91-9123123123</span></div>
+             </div> 
+        -->
+        <!----Nav-->
+        <nav>   
+            <!---row-->
+            <div class="d-block d-sm-block d-md-flex d-lg-flex justify-content-around align-items-center  bg-warning-subtle1  ">
+                <div id="logo" class=" p-3  d-flex align-items-center justify-content-center"><img src="./assets/images/logo.jpg" class="img-fluid rounded-3" width="100px" height="100px"/></div>
+                <div id="CollegeName" class="d-flex align-items-center justify-content-center"><h3 class="fw-bolder text-warning">College/University</h3></div>
+            </div>
+           <div class="row">
+                
+             <div class="col-4">.</div>
+             <div class="col-8" style="background-color: blueviolet;">
+                <ul class="text-white align-items-center text-decoration-none mt-2">
+                    <li><a href="#" >Home</a></li>
+                    <li><a href="#" >About Us</a></li>
+                    <li><a href="#" >Departments</a></li>
+                    <li><a href="#" >Courses</a></li>
+                    <li><a href="#" >Admission</a></li>
+                    <li><a href="#" >Facilities</a></li>
+                    <li><a href="#">News and Events</a></li>
+                    <li><a href="3">Contact</a></li>
+                    <li><div class="dropdown open">
+                        <a class="dropdown-toggle fw-bolder text-white" type="button" id="triggerId" data-bs-toggle="dropdown" aria-haspopup="true" href="#"
+                                aria-expanded="false">
+                                    More
+                                </a>
+                        <div class="dropdown-menu" aria-labelledby="triggerId">
+                            <button class="dropdown-item" href="#">Action</button>
+                            <button class="dropdown-item " href="#">action</button>
+                            <button class="dropdown-item" href="#">Action</button>
+                            <button class="dropdown-item " href="#">action</button>                            <button class="dropdown-item" href="#">Action</button>
+                            <button class="dropdown-item " href="#">action</button>
+                        </div>
+                    </div></li>
+                </ul>
+             </div> <!--col-for-logo-> <!--col-for other details--divide it in 2 rows--home,acdemics,research,dept etc-->
+              </div>
+            <!--row-->
+        </nav>    
+       <!--Nav-->
+       <div class="main">
+         <!---carousel/slider of images-->
+         <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item carousel-item-1 active" data-bs-interval="10000">
+                <img src="./assets/images/nathaniel-yeo-FY2vWMfr8YE-unsplash.jpg" alt="corridor"  class="img-fluid"/>
+              <div>If I write anything..</div>
+              </div>
+              <div class="carousel-item carousel-item-2" data-bs-interval="2000">
+                <img src="./assets/images/pharmacy1.jpg" alt="corridor"  class="img-fluid"/>
+              </div>
+              <div class="carousel-item carousel-item-3">
+                <img src="./assets/images/library2.jpg" alt="corridor"  class="img-fluid"/>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!---carousel-->
+       </div><!--main-->
+         
+          <!--chairmans message-->
+           <div id="chair-message" class="mt-5 container">
+              <div class="d-flex align-items-center justify-content-center"><h2 class="fw-bolder text-white">Chairman's Message</h2></div>
+              <div class="row p-4">
+                  <div class="col"><img src="./assets/images/dummy_chair.jpg" alt="dummy_chair" class="img-fluid rounded-5 h-100 w-75"/></div>
+                  <div class="col">
+                    <p class="text-warning ">Lorem Ipusm lore and story..Lorem Ipu, Ipsum,Lorem Ipusm lore and story..Lorem Ipu, Ipsumv. Lorem Ipusm lore and story..Lorem Ipu, Ipsum, Lorem Ipusm lore and story..Lorem Ipu, Ipsum.Lorem Ipusm lore and story..Lorem Ipu, Ipsum
+                    </p>
+                </div>
+              </div>
+           </div>
+          <!--chairman's message-->
+          <!--facilities-->
+
+          <!--facilities-->
+          <!--News/ Activities or Events-->
+
+          <!--News/ Activities or Events-->
+          <!--about us-->
+             
+          <!--about us-->
+          <!--testimonials-->
+               <!---carousel-->
+          <!--testimonials-->
+          <!---Accordions/ FAQs-->
+
+          <!---Accordions/ FAQs-->
+          <!--Contact us/Reach us-->
+               <!--Google maps location--> <!--address-->
+               <!--form with customer details, and text area with a message-->
+          <!--Contact us/Reach us-->
+       <!--main-->
+    </div>
+       <!--footer-->
+
+       <!--footer-->
+</body>
+</html>
